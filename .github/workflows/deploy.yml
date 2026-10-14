@@ -1,6 +1,7 @@
 name: Deploy AI Aircraft Maintenance Platform
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
